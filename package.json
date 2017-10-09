@@ -1,0 +1,45 @@
+{
+  "name": "murmle",
+  "version": "1.0.0",
+  "description": "Simple logging",
+  "main": "dist/lib/Logger.js",
+  "types": "dist/lib/Logger.d.ts",
+  "scripts": {
+    "test": "ava dist/test/**/*.js",
+    "prepublish": "grunt"
+  },
+  "author": "Stewart Mackenzie-Leigh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^6.0.58",
+    "ava": "^0.17.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.15",
+    "load-grunt-tasks": "^3.5.2",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "log-symbols": "^1.0.2",
+    "time-stamp": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/murmle.git"
+  },
+  "keywords": [
+    "logging",
+    "log",
+    "logger",
+    "bunyan",
+    "json"
+  ],
+  "bugs": {
+    "url": "https://github.com/stewartml/murmle/issues"
+  },
+  "homepage": "https://github.com/stewartml/murmle#readme"
+}
